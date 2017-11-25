@@ -1,0 +1,153 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".6"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_man" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_time" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_money" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="218dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ic_exchange_logo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight=".3"
+        android:background="@android:color/background_light"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:text="Welcome to Crypto Converter"/>
+<android.support.v4.widget.Space
+    android:layout_width="match_parent"
+    android:layout_height="40sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="20sp"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:padding="20sp"
+                    app:srcCompat="@drawable/logo_cardano"
+                    android:id="@+id/cardano"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/dash"
+                    app:srcCompat="@drawable/logo_dash"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ripple"
+                    app:srcCompat="@drawable/logo_ripple"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/qtum"
+                    app:srcCompat="@drawable/logo_qtum"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/neo"
+                    app:srcCompat="@drawable/logo_neo"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content" />
+
+                
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    app:srcCompat="@drawable/logo_omisego"
+                    android:id="@+id/omisego"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/nem"
+                    app:srcCompat="@drawable/logo_nem"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/monero"
+                    app:srcCompat="@drawable/logo_monero"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content" />
+                
+                <ImageView
+                    android:layout_width="wrap_content"
+                    app:srcCompat="@drawable/logo_lisk"
+                    android:id="@+id/lisk"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    app:srcCompat="@drawable/logo_iota"
+                    android:id="@+id/iota"
+                    android:padding="20sp"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

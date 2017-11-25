@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <array name="navbarItems">
+        <item>Currency</item>
+        <item>Converter</item>
+    </array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_currency_converter">Converter</string>
+    <string name="title_currency_list">Currencies</string>
+    <string name="saved_currency_data" />
+    <string-array name="real_currency_spinner_items">
+        <item>EUR</item>
+        <item>USD</item>
+    </string-array>
+    <string-array name="crypto_currency_spinner_items">
+        <item>BTC</item>
+        <item>ETH</item>
+        <item>BCH</item>
+        <item>XRP</item>
+        <item>LTC</item>
+        <item>DASH</item>
+        <item>NEO</item>
+        <item>XEM</item>
+        <item>XMR</item>
+        <item>MIOTA</item>
+        <item>ETC</item>
+        <item>QTUM</item>
+        <item>OMG</item>
+        <item>ADA</item>
+        <item>LSK</item>
+    </string-array>
+</resources>
